@@ -9,6 +9,7 @@ body{
 .top-section h1{
     font-size: 50px;
     border-left: 5px solid orangered;
+    border-bottom-right-radius: 10px;
 
   
 }
@@ -52,12 +53,12 @@ body{
     text-align: center;
 }
 #mission-box-1{
-    background-color: rgb(153, 245, 237);
+    background-color: rgba(153, 245, 237, .20);
 }
 #mission-box-2{
-    background-color: rgb(236, 245, 153);
+    background-color: rgba(236, 245, 153, .20);
 }#mission-box-3{
-    background-color: rgb(141, 108, 19);
+    background-color: rgba(248, 207, 95, .20);
 }
 /* middle section  this is middle section*/
 
@@ -94,58 +95,58 @@ body{
     width: 50%;
     margin: 50px;
     padding: 50px;
-    background-color: rgba(186, 196, 46, 0.37);
+    background-color: #ebebeb;
     border-radius: 20px;
+    text-align: center;
   
 }
 input[type=text]{
     margin-bottom:20px;
     width: 400px;
     padding: 20px;
-    border-radius: 20px;
-    font-size: 20px;
+    border-radius: 0px;
+    font-size: 15px;
     display: block;
     border: none;
-    cursor: pointer;
     
 }
 input[type=email]{
     margin-bottom:20px;
     padding: 20px;
-    border-radius: 20px;
-    font-size: 20px;
+    border-radius: 0px;
+    font-size: 15px;
     display: block;
     border: none;
     width: 400px;
-    cursor: pointer;
     
 }
 input[type=password]{
     margin-bottom:20px;
     width: 400px;
     padding: 20px;
-    border-radius: 20px;
-    font-size: 20px;
+    border-radius: 0px;
+    font-size: 15px;
     display: block;
     border: none;
-    cursor: pointer;
-    
 }
-input[type=submit]{
-    margin-top:70px;
-    width: 440px;
-    padding: 20px;
-    border-radius: 20px;
-    font-size: 20px;
+
+.button{
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 700;
     display: block;
     border: none;
     cursor: pointer;
-
-    
+    color: whitesmoke;
+    background-color: orangered; 
+    letter-spacing: 2px;
 }
 footer{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.897);
     color:white;
-    padding: 15px;
+    padding: 10px;
+}
+#covid-images{
+    width: 100%;
 }
